@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/test', (req, res) => {
-  console.log("테스트로 들어왔어요.")
+  console.log("앙 기모링")
   res.send('Hello, test');
 });
 
